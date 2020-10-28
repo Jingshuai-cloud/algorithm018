@@ -54,8 +54,8 @@ public class InorderTraversal {
 
         root = first;
         first.left = second;
-        first.right = third;
-        second.left = fourth;
-        second.right = five;
+        first.right = five;
+        second.left = third;
+        second.right = fourth;
     }
 }
